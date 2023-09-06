@@ -27,5 +27,6 @@ REPOSITORY 1
 
 
 ![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143982031/e3abd0d5-b2f1-401f-b4f7-1fa64ba5f135)
-										
 
+# MATH-FUNCTION
+![image](https://github.com/nthnlgmz/Practice-of-text-math-and-logical-functions/assets/143614589/67aaf85d-fcc6-438e-8f74-4add805c6ef1)
