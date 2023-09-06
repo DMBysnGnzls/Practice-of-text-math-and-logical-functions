@@ -26,9 +26,6 @@ REPOSITORY 1
 -The Least Common Multiple is the smallest integer that can be divided by all the numbers provided.<br>
 
 
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143982031/e3abd0d5-b2f1-401f-b4f7-1fa64ba5f135)
+										
 
-
-![image](https://github.com/DMBysnGnzls/NUMERIC-FUNCTION/assets/143982031/9bd2cc17-2118-43eb-b06c-eb19a4b0aaa9)
-
-# MATH-FUNCTION														
-![image](https://github.com/DMBysnGnzls/NUMERIC-FUNCTION-MATH-FUNCTION-TEXT-FUNCTION/assets/143614589/13c03861-3faa-46da-ac45-ab857fdf2510)
