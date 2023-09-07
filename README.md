@@ -132,4 +132,88 @@ The Microsoft Excel CONCATENATE function allows you to join 2 or more strings to
 
 # MATH-FUNCTION
 ![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143982031/e3abd0d5-b2f1-401f-b4f7-1fa64ba5f135)
-![image](https://github.com/nthnlgmz/Practice-of-text-math-and-logical-functions/assets/143614589/67aaf85d-fcc6-438e-8f74-4add805c6ef1)
+
+<b>POWER Function</b><br>
+>👉The POWER function is used to calculate a number raised to a specified power.  
+>👉Syntax: =POWER(number, power)  
+>👉Example: If you want to calculate 2 raised to the power of 8, you can use =POWER(2, 3), which will return 256.  
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/8182931e-2121-414f-ac9b-04f7b2e3ef24)
+
+<b>SQRT Function</b><br>
+>👉The SQRT function is used to find the square root of a number.<br>
+>👉Syntax: =SQRT(number)<br>
+>👉Example: To find the square root of 16, you can use =SQRT(16), which will return 4.<br>
+>👉The SQRT function will return an error if you attempt to find the square root of a negative number because the square root of a negative number is not a real number.<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/97540c9a-d7aa-418e-8e77-c1543e20db4f)
+
+<b>QUOTIENT Function</b><br>
+>👉The QUOTIENT function is used to find the integer portion of the result of dividing one number by another.<br>
+>👉Syntax: =QUOTIENT(numerator, denominator)<br>
+>👉Example: If you want to find the integer quotient of 12 divided by 2, you can use =QUOTIENT(12, 2), which will return 6. This function returns the whole number portion of the division result.<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/8a6dd2cd-713d-40ca-afdb-77ee45b9aa91)
+
+<b>MOD Function</b><br>
+>👉The MOD function returns the remainder when one number (the dividend) is divided by another number (the divisor).<br>
+>👉Syntax: =MOD(number, divisor)<br>
+>👉Example: If you want to find the remainder when 10 is divided by 3, you can use =MOD(10, 3), which will return 1 because 10 divided by 3 is 3 with a remainder of 1.<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/ac8124e9-e4d8-47b5-9541-2f60f0a3258b)
+
+<b>MIN Function</b><br>
+>👉The MIN function returns the minimum value from a range of numbers.<br>
+>👉Syntax: =MIN(number1, [number2], ...)<br>
+>👉Example: If you have a range of numbers in cells A1 to A5 and you want to find the minimum value in that range, you can use =MIN(A1:A5).<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/543dad20-6054-48b9-8c17-552091f85d12)
+
+<b>MAX Function</b><br>
+>👉The MAX function returns the maximum value from a range of numbers.<br>
+>👉Syntax: =MAX(number1, [number2], ...)<br>
+>👉Example: If you have a range of numbers in cells A1 to A5 and you want to find the maximum value in that range, you can use =MAX(A1:A5).<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/6f37e06d-9e0e-4996-abf7-d8d8c6f56d50)
+
+<b>AVERAGE Function</b><br>
+>👉The AVERAGE function calculates the arithmetic mean of a range of numbers.<br>
+>👉Syntax: =AVERAGE(number1, [number2], ...)<br>
+>👉Example: Suppose you have a dataset of students' quiz scores, and you want to calculate the average score for students who scored above 40 in Quiz 2. You can use the AVERAGEIFS function as follows:<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/1593d59b-de64-4411-aeb7-db0367b8c1f2)
+
+<b>AVERAGEIFS Function</b><br>
+>👉The AVERAGEIFS function calculates the average based on one or more criteria.<br>
+>👉Syntax: =AVERAGEIFS(average_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)<br>
+>👉Example: Suppose you have a dataset with product information, including their prices, colors, and the countries they are sold in. You want to calculate the average price for each product group (e.g., iPhone, Blackberry, Samsung, Realme, Huawei). To achieve this, you can use the AVERAGEIFS function in Excel.<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/02c1dba1-0070-46b1-a17a-449e451b7ec4)
+
+<b>COUNT Function</b><br>
+>👉The COUNT function is used to count the number of cells in a range that contain numbers or numeric values.<br>
+>👉Syntax: =COUNT(value1, [value2], ...)<br>
+>👉Example: You have a list of values in column A, and you want to count how many of these cells contain numeric values.<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/e119b418-09bf-493f-874e-dd0dc9447c66)
+
+<b>COUNTA Function</b><br>
+>👉The COUNTA function counts the number of cells in a range that are not empty (contain any value, including text, numbers, or errors).<br>
+>👉Syntax: =COUNTA(value1, [value2], ...)<br>
+>👉Example: Let's say you have a dataset in which you want to count the total number of non-empty cells. In your dataset, you have a column named "VALUE," and you want to count how many cells in this column contain any type of value, whether it's text, numbers, or even empty strings. You can use the COUNTA function for this purpose.<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/bb31875d-547e-4fd3-97cc-65b184bca979)
+
+<b>COUNTBLANK Function</b><br>
+>👉The COUNTBLANK function counts the number of empty cells (cells that contain nothing, including empty strings) in a range.<br>
+>👉Syntax: =COUNTBLANK(range)<br>
+>👉Example: Let's say you have a dataset containing employee information, including their Employee ID, Salary, and Commission (Comm). You want to count how many employees have missing values (blanks) in the "Comm" column. To do this, you can use the COUNTBLANK function.<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/10105766-8341-43a2-a4ad-318f516829aa)
+
+<b>SUM Function</b><br>
+>👉The SUM function is used to add up a range of numbers or values.<br>
+>👉Syntax: =SUM(number1, [number2], ...)<br>
+>👉Example: If you have a range of numbers in cells A1 to A5 and you want to find the total sum of these numbers, you can use =SUM(A1:A5). Excel will add all the numbers in the specified range.<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/fde5505d-31c7-44ff-b491-3ae8491a8818)
+
+<b>MEDIAN Function</b><br>
+>👉The MEDIAN function calculates the middle value in a range of numbers. It's useful for finding the median of a dataset.<br>
+>👉Syntax: =MEDIAN(number1, [number2], ...)<br>
+>👉Example: You have a dataset with several numbers in the "NUM" column, and you want to calculate the median of these numbers. The MEDIAN function is used for this purpose.<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/48d9a15b-e9a3-4676-8681-5250f8b1ead5)
+
+<b>LARGE Function</b><br>
+>👉The LARGE function is used to find the "n-th" largest value in a range.<br>
+>👉Syntax: =LARGE(array, k)<br>
+>👉You have a dataset with student names, their total marks, and their corresponding ranks. You want to find and display the scores of students based on their rank. To find the score for the student with rank 1, you can use the LARGE function.<br>
+![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/cbf44b70-7fe7-45cb-95f6-1808278a9cd0)
