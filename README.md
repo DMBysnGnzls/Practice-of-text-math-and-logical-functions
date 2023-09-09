@@ -1,6 +1,8 @@
 # Practice-of-text-math-and-logical-functions
 REPOSITORY 1
 
+# TEXT-FUNCTIONS
+
 <b>What are TEXT functions?</b><br>
 Excel is mostly about the numerical data, but at times you can come across the data which has too much text and that is the time when Text Functions in Excel will help you to simplify the things easily.<br>
 
@@ -67,7 +69,6 @@ number_of_characters – The number of characters that you wish to extract. It i
 <b>CONCATENANTE Function</b><br>
 The Microsoft Excel CONCATENATE function allows you to join 2 or more strings together.<br>
 
-# TEXT-FUNCTION
 ![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/17980f14-2f7f-44e3-a6bc-2bdc937996ca)
 
 # NUMERIC-FUNCTION
@@ -98,28 +99,28 @@ The Microsoft Excel CONCATENATE function allows you to join 2 or more strings to
 -The Excel CEILING function rounds a given number up to the nearest specified multiple.<br>
 -The Excel FLOOR function rounds a given number down to the nearest specified multiple.<br>
 
-![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/666b95ef-a954-4166-8dd5-7b17cccf0262)
+>![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/666b95ef-a954-4166-8dd5-7b17cccf0262)
 
 
 <b>EVEN Function</b><br>
 -The Excel EVEN function returns the next even integer after rounding a given number up.<br>
 -The EVEN function always rounds numbers up (away from zero) so positive numbers become larger and negative numbers become smaller (i.e. more negative).<br>
 
-![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/3d20b41a-0c21-4fe0-beb8-01d1ba295090)
+>![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/3d20b41a-0c21-4fe0-beb8-01d1ba295090)
 
 
 <b>ODD Function</b><br>
 -The Excel ODD function returns the next odd integer after rounding a given number up.<br>
 -The ODD function always rounds numbers up (away from zero) so positive numbers become larger and negative numbers become smaller (i.e. more negative).<br>
 
-![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/746c52f7-0202-4ac1-9d51-6f8c060210db)
+>![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/746c52f7-0202-4ac1-9d51-6f8c060210db)
 
 
 <b>ROUND Function</b><br>
 -The Excel ROUND function returns a number rounded to a given number of digits.<br>
 -The ROUND function can round to the right or left of the decimal point.<br>
 
-![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/3432ca88-0dd4-4d62-91ac-189125997328)
+>![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/3432ca88-0dd4-4d62-91ac-189125997328)
 
 
 <b>TRUNC Function</b><br>
@@ -127,10 +128,10 @@ The Microsoft Excel CONCATENATE function allows you to join 2 or more strings to
 -For example, TRUNC (4.9) will return 4, and TRUNC (-3.5) will return -3.<br>
 -The TRUNC function does no rounding, it simply truncates as specified.<br>
 
-![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/d97e8167-3239-450b-8aea-59ddd34203da)
+>![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/d97e8167-3239-450b-8aea-59ddd34203da)
 
 
-# MATH-FUNCTION
+# MATH-FUNCTIONS
 ![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143982031/e3abd0d5-b2f1-401f-b4f7-1fa64ba5f135)
 
 <b>POWER Function</b><br>
@@ -217,3 +218,88 @@ The Microsoft Excel CONCATENATE function allows you to join 2 or more strings to
 >👉Syntax: =LARGE(array, k)<br>
 >👉You have a dataset with student names, their total marks, and their corresponding ranks. You want to find and display the scores of students based on their rank. To find the score for the student with rank 1, you can use the LARGE function.<br>
 ![image](https://github.com/DMBysnGnzls/Practice-of-text-math-and-logical-functions/assets/143614589/cbf44b70-7fe7-45cb-95f6-1808278a9cd0)
+>
+
+# LOGICAL-FUNCTIONs
+<b>What are logical functions?</b><br>
+-A LOGICAL FUNCTION is one that evaluates an expression and returns a Boolean result. <br>
+>-For example, imagine a series of cells that represent employees last name. If you are interested to know which cell doesn't have a name, you can use a function. <br>
+>-On the other hand, imagine you have a cell that is supposed to indicate when must you receive a discount, you can use a conditional function to check it. <br>
+
+-Most, if not all, logical functions check a condition and render a result. <br>
+
+<b>IF Function</b><br>
+-The Microsoft Excel IF function returns one value if the condition is TRUE, or another value if the condition is FALSE <br>
+>Syntax <br>
+>=IF( condition, value_if_true, [value_if_false])
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/4154be65-e52a-4c23-879a-a44715030295)
+
+
+<b>AND Function</b><br>
+-The Microsoft Excel AND function returns TRUE if all arguments evaluate TRUE else return FALSE. <br>
+>Syntax <br>
+>=AND(condition1, [condition2], ...)<br>
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/fd26be52-ce70-4387-a3af-824f907415e0)
+
+
+<b>OR Function</b><br>
+-The OR function in Excel returns TRUE if any of the conditions are true and returns FALSE if all conditions are false. <br>
+>Syntax <br>
+>=OR( condition1, [condition2, ... condition_n])<br>
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/78b0527a-6bbd-447d-b5a4-3c62dcdadc91)
+
+
+<b>NOT Function</b><br>
+-The Microsoft Excel NOT function is used to check if one value is not equal to another If we give TRUE, it will return FALSE and when given FALSE, it will return TRUE. <br>
+>Syntax <br>
+>=NOT(logical)<br>
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/c106a76e-3f08-4d84-b756-1da246e2e6bf)
+
+
+<b>XOR Function</b><br>
+-The XOR Function was introduced in Excel 2013 and is available under Excel Logical functions. It is a logical "exclusive OR" function.<br>
+-For two given logical statements, the XOR function would return TRUE if one of the statements is true and FALSE if both statements are true. If neither of the statements is true, it also returns FALSE. <br>
+>Syntax<br>
+>=XOR(logical1, [logical2],...)<br>
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/4a85c07e-3459-45fe-904d-58ad825fda66)
+
+
+<b>ISBLANK Function </b><br>
+-The Microsoft Excel IF function returns one value if the condition is TRUE, or another value if the condition is FALSE. <br>
+>Syntax<br>
+>=IF( condition, value_if_true, [value_if_false])<br>
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/c0b783c9-a340-459d-9512-c80322bc0c7e)
+
+
+<b>IFERROR Function</b><br>
+-The Microsoft Excel IFERROR function returns an alternate value if a formula results in an error.<br>
+-It will check for errors such as #N/A, #VALUE!, #REF!, #DIV/O!, #NUM!, #NAME? or #NULL <br>
+>Syntax <br>
+>=IFERROR (value, value_if_error)<br>
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/7ba7a8bd-ba21-464d-a476-38693a5d6240)
+
+
+<b>SUMIF Function</b><br>
+-You use the SUMIF function to sum the values in a range that meet criteria that you specify. <br>
+-For example, suppose that in a column that contains numbers, you want to sum only the values that are larger than 5. You can use the following formula: =SUMIF(B2:B25,">5")<br>
+>Syntax<br>
+>=SUMIF(range, criteria, [sum_range])<br>
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/791f57cb-112a-4bdc-a302-7dfd7b34841d)
+
+
+<b>COUNTIF Function</b><br>
+-Use COUNTIF, one of the statistical functions, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list.<br>
+>Syntax<br>
+>=COUNTIF(range, criteria)<br>
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/30306be6-9321-48ec-9a24-68f15f472975)
+
+
+<b>IFNA Function</b><br>
+-The IFNA function in Excel returns an alternate value as specified by the user if a formula results in an #N/A error. <br>
+>Syntax <br>
+>=IFNA(value, value_if_na)<br>
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/611cf88f-3101-4cf7-993e-28d7d7b84e83)
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/aac37841-59fa-4f90-b50d-5434d6bf88d7)
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/21731d9f-a032-4ec3-bf3b-c31424017030)
+![image](https://github.com/ralphgrm/Practice-of-text-math-and-logical-functions/assets/134179620/eb3ec924-b0b4-4706-af18-c6e117607bb5)
+
