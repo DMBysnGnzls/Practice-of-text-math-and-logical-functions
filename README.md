@@ -1,5 +1,5 @@
 # Practice-of-text-math-and-logical-functions
-REPOSITORY 1
+REPOSITORY-1
 
 # TEXT-FUNCTIONS
 
